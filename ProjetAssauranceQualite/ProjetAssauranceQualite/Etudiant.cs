@@ -29,5 +29,10 @@ namespace ProjetAssauranceQualite
 				Console.WriteLine(etud.ToString());
 			}
        
+		public void CalculerMoyenne(){
 		
+			if()
+		
+		
+		}
 }
