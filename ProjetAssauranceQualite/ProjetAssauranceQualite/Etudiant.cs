@@ -6,11 +6,17 @@ namespace ProjetAssauranceQualite
 {
     class Etudiant
     {
-        
-        public override string ToString()
+    public int NumeroEtudiant { get; set; }	  
+		public string Nom { get; set; }
+		public string Prenom { get; set; }
+
+		public Etudiant(int numeroEtudiant, string nom, string prenom)
 		{
-			return "\n\tNumero Etudiant "+this.NumeroEtudiant+"\n\tNom : "+this.Nom+"\n\tPrenom : "+this.Prenom;
+			this.Nom = nom;
+			this.Prenom = prenom;
+			this.NumeroEtudiant = numeroEtudiant;
 		}
+    
 
 		public static void AfficherListeEtudiant(List<Etudiant> listeEtudiants)
 		{
@@ -22,6 +28,6 @@ namespace ProjetAssauranceQualite
 			{
 				Console.WriteLine(etud.ToString());
 			}
-		}
-    }
+       
+		
 }
