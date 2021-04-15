@@ -17,5 +17,7 @@ namespace ProjetAssauranceQualite
 			this.NumeroCours = numeroCours;
 			this.TitreCours = titreCours;
 		}
+	    Console.writeLine("Test de verification");
+	    Console.readLine();
     }
 }
