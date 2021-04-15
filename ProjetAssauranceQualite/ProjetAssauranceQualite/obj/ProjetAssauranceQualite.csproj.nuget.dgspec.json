@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\projetAssurance\\ProjetAssauranceQualite\\ProjetAssauranceQualite\\ProjetAssauranceQualite.csproj": {}
+    "M:\\hassantest\\GestionDesNotesDesEtudiants\\ProjetAssauranceQualite\\ProjetAssauranceQualite\\ProjetAssauranceQualite.csproj": {}
   },
   "projects": {
-    "M:\\projetAssurance\\ProjetAssauranceQualite\\ProjetAssauranceQualite\\ProjetAssauranceQualite.csproj": {
+    "M:\\hassantest\\GestionDesNotesDesEtudiants\\ProjetAssauranceQualite\\ProjetAssauranceQualite\\ProjetAssauranceQualite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\projetAssurance\\ProjetAssauranceQualite\\ProjetAssauranceQualite\\ProjetAssauranceQualite.csproj",
+        "projectUniqueName": "M:\\hassantest\\GestionDesNotesDesEtudiants\\ProjetAssauranceQualite\\ProjetAssauranceQualite\\ProjetAssauranceQualite.csproj",
         "projectName": "ProjetAssauranceQualite",
-        "projectPath": "M:\\projetAssurance\\ProjetAssauranceQualite\\ProjetAssauranceQualite\\ProjetAssauranceQualite.csproj",
+        "projectPath": "M:\\hassantest\\GestionDesNotesDesEtudiants\\ProjetAssauranceQualite\\ProjetAssauranceQualite\\ProjetAssauranceQualite.csproj",
         "packagesPath": "C:\\Users\\hassa\\.nuget\\packages\\",
-        "outputPath": "M:\\projetAssurance\\ProjetAssauranceQualite\\ProjetAssauranceQualite\\obj\\",
+        "outputPath": "M:\\hassantest\\GestionDesNotesDesEtudiants\\ProjetAssauranceQualite\\ProjetAssauranceQualite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hassa\\AppData\\Roaming\\NuGet\\NuGet.Config",
