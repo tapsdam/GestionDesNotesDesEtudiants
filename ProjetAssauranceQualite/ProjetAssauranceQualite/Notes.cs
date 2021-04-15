@@ -6,5 +6,6 @@ namespace ProjetAssauranceQualite
 {
    public class Notes
     {
+      Console
     }
 }
