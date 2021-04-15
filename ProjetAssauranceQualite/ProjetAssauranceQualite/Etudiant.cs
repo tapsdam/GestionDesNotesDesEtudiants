@@ -6,8 +6,7 @@ namespace ProjetAssauranceQualite
 {
     class Etudiant
     {
-        
-        public int NumeroEtudiant { get; set; }	  
+    public int NumeroEtudiant { get; set; }	  
 		public string Nom { get; set; }
 		public string Prenom { get; set; }
 
@@ -17,10 +16,18 @@ namespace ProjetAssauranceQualite
 			this.Prenom = prenom;
 			this.NumeroEtudiant = numeroEtudiant;
 		}
+    
 
-		public override string ToString()
+		public static void AfficherListeEtudiant(List<Etudiant> listeEtudiants)
 		{
-			return "\n\tNumero Etudiant Mon nom"+this.NumeroEtudiant+"\n\tNom : "+this.Nom+"\n\tPrenom : "+this.Prenom;
-		}
-    }
+			if (listeEtudiants.Count < 1)
+			{
+				Console.WriteLine("Aucun etudiant disponible dans votre base de donnee\n");
+			}
+			foreach (Etudiant etud in listeEtudiants)
+			{
+				Console.WriteLine(etud.ToString());
+			}
+       
+		
 }
