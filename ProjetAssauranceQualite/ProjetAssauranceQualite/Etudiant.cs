@@ -20,7 +20,7 @@ namespace ProjetAssauranceQualite
 
 		public override string ToString()
 		{
-			return "\n\tNumero Etudiant "+this.NumeroEtudiant+"\n\tNom : "+this.Nom+"\n\tPrenom : "+this.Prenom;
+			return "\n\tNumero Etudiant Mon nom"+this.NumeroEtudiant+"\n\tNom : "+this.Nom+"\n\tPrenom : "+this.Prenom;
 		}
     }
 }
